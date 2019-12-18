@@ -38,7 +38,7 @@ def test_0020_subtract(self):
 
 def test_0030_multiply(self):
 
-       “Test subtract operation”
+       "Test multiple operation"
 
        result = process_input(self.a, self.b, "multiple")
 
