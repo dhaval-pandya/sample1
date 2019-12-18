@@ -16,7 +16,7 @@ class TestApp(unittest.TestCase):
 
    def setUp(self):
 
-       “This runs before the test cases are executed”
+       "This runs before the test cases are executed"
 
        self.a = 10
 
@@ -24,9 +24,9 @@ class TestApp(unittest.TestCase):
 
    def test_0010_add(self):
 
-       “Test add operation”
+       "Test add operation"
 
-       result = process_input(self.a, self.b, “add”)
+       result = process_input(self.a, self.b, "add")
 
        self.assertEqual(result, 15)
 
@@ -48,6 +48,6 @@ def suite():
 
  
 
-if __name__ == ‘__main__’:
+if __name__ == '__main__':
 
    unittest.TextTestRunner(verbosity=2).run(suite())
