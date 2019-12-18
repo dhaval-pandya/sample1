@@ -10,9 +10,7 @@ from app import process_input
 
 class TestApp(unittest.TestCase):
 
-   """Test the mathematical operations app
-
-   """
+   """Test the mathematical operations app"""
 
    def setUp(self):
 
