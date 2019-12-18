@@ -34,7 +34,15 @@ def test_0020_subtract(self):
 
        result = process_input(self.a, self.b, "subtract")
 
-       self.assertEqual(result, 5) 
+       self.assertEqual(result, 5)
+
+def test_0030_multiply(self):
+
+       “Test subtract operation”
+
+       result = process_input(self.a, self.b, "multiple")
+
+       self.assertEqual(result, 50)
 
 def suite():
 
