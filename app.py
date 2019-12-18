@@ -22,7 +22,7 @@ def process_input(a, b, operation):
 
    if operation == "subtract":
 
-       return a – b
+       return a - b
 
    if operation == "multiple":
 
