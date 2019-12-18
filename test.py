@@ -28,7 +28,13 @@ class TestApp(unittest.TestCase):
 
        self.assertEqual(result, 15)
 
- 
+def test_0020_subtract(self):
+
+       "Test subtract operation"
+
+       result = process_input(self.a, self.b, "subtract")
+
+       self.assertEqual(result, 5) 
 
 def suite():
 
