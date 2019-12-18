@@ -28,21 +28,21 @@ class TestApp(unittest.TestCase):
 
        self.assertEqual(result, 15)
 
-def test_0020_subtract(self):
+   def test_0020_subtract(self):
 
-       "Test subtract operation"
+          "Test subtract operation"
 
-       result = process_input(self.a, self.b, "subtract")
+          result = process_input(self.a, self.b, "subtract")
 
-       self.assertEqual(result, 5)
+          self.assertEqual(result, 5)
 
-def test_0030_multiply(self):
+   def test_0030_multiply(self):
 
-       "Test multiple operation"
+          "Test multiple operation"
 
-       result = process_input(self.a, self.b, "multiple")
+          result = process_input(self.a, self.b, "multiple")
 
-       self.assertEqual(result, 50)
+          self.assertEqual(result, 50)
 
 def suite():
 
