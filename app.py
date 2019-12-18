@@ -37,5 +37,4 @@ def process_input(a, b, operation):
        return a / b
 
  
-
 if __name__ == "__main__":
