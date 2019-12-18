@@ -37,4 +37,6 @@ def process_input(a, b, operation):
        return a / b
 
  
-if __name__ == "__main__":
+if __name__ == "__main__:
+    "Run as a script"
+    print(process_input(int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]))
